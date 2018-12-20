@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif, sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  background-color: #01bcc6;
+}
+
+.header {
+  padding: 20px 0 0 0;
+  margin-bottom: 50px;
+}
+
+main {
+  margin: 0 0 70px 0;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: green;
+}
+
+.news-wrapper {
+  background-color: #d5d1ca;
+}
+
+.news {
+  margin-bottom: 70px;
+}
+
+.section-title {
+  margin: 0 0 20px 0;
+  font-family: "Charm", cursive, serif;
+  font-size: 36px;
+}
+
+.news-article__list {
+  font-size: 0;
+}
+
+.news-article__item {
+  font-size: 16px;
+  list-style: none;
+  display: inline-block;
+  width: 400px;
+  margin: 0 0 50px 0;
+}
+
+.news-article__item-r {
+  /* margin-right: calc(900px - 400px * 2 - 8px); */
+  margin-right: 100px;
+}
+
+.article-title {
+  font-family: "Charm", cursive, serif;
+  font-size: 24px;
+}
+
+.article-text {
+  margin: 0 0 15px 0;
+}
+
+.article-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.blog-wrapper {
+  background: #000 url("../img/1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.blog {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.blog-article__list {
+  font-size: 0;
+}
+
+.blog-article__item {
+  list-style: none;
+  display: inline-block;
+  width: 250px;
+  font-size: 16px;
+}
+
+.blog-article__item-r {
+  /* margin-right: calc((900px - 250px * 3) / 2 - 12px); */
+  margin-right: 75px;
+}
+
+.footer-wrapper {
+  background-color: #005b7c;
+}
+
+.footer-list__item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.sublist-item {
+  list-style: none;
+  margin: 0 0 15px 0;
+}
+
+.footer-link {
+  color: blue;
+  text-decoration: none;
+  font-size: 24px;
+}
+/* 
+button {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  padding: 20px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 50%;
+} */
