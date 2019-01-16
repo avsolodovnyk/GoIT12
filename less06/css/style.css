@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif, sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* объявляем переменную */
+ul {
+  counter-reset: var;
+}
+
+/* инкрементим переменную */
+li {
+  counter-increment: var;
+  list-style: none;
+}
+
+/* Выводим переменную */
+li::before {
+  content: counter(var);
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+}
+
+.fa-shopping-cart {
+  font-size: 48px;
+  color: aquamarine;
+}

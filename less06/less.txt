@@ -1,0 +1,14 @@
+Счетчики
+https://getinstance.info/articles/css/understanding-css-counters-and-their-use-cases/
+
+Фотошоп
+-показать как нарезать асеты 
+-показать как копировать цсс
+-показать как брать цвет шрифта
+-показать как мерять макет
+https://csshat.com/ 
+
+
+Иконки
+https://fontawesome.com/
+
