@@ -1,0 +1,30 @@
+http://html5doctor.com/
+https://blog.teamtreehouse.com/use-html5-sectioning-elements
+
+
+canvas
+https://idg.net.ua/blog/primery-animatsii-html5-canvas
+http://andrew.wang-hoyer.com/experiments/cloth/
+http://spielzeugz.de/html5/liquid-particles/
+
+ 
+----------------------------------------------------------------------------
+<main>
+Note: There must not be more than one <main> element in a document. The <main> element must NOT be a descendant of an <article>, <aside>, <footer>, <header>, or <nav> element.
+
+
+<footer>!!!!
+The <footer> element is used to represent information about a section such as the author, copyright information, or links to related web pages.
+
+<footer>
+Copyright Matt West 2014
+</footer>
+
+As with <header>, the <footer> element is associated with the nearest sectioning element.
+
+
+
+
+
+
+
