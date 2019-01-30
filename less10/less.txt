@@ -1,0 +1,22 @@
+Занятие #2:
+- Введение в CSS-тени: text-shadow и box-shadow
+- Основные 2D CSS трансформации: translate, scale, rotate
+https://www.cssmatic.com/
+
+- CSS переходы
+https://codepen.io/bennettfeely/pen/hlatn
+http://cubic-bezier.com/#.17,.67,.83,.67
+
+- Введение в CSS-анимацию
+https://stfalcon.com/ru/blog/post/animation-css
+https://www.hongkiat.com/blog/svg-animations/
+
+- PNG спрайты
+https://spritegen.website-performance.org/
+
+- дев тулз
+
+------------------------------------------------
+
+
+

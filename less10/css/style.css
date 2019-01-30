@@ -1,0 +1,198 @@
+@import "./vars.css";
+
+body {
+  font-family: var(--main-font);
+}
+
+.wrapper {
+  max-width: 900px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 20px;
+  background-color: green;
+  color: lightcyan;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+
+  /* -webkit-box-shadow: 0px 3px 42px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 42px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 42px 3px rgba(0, 0, 0, 0.75); */
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+  color: #000000;
+  transition: 2s;
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+.cont {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 20px solid #999;
+  /* border-radius: 50%; */
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  /* border-radius: 50%; */
+  background-color: pink;
+
+
+  transition: transform 300ms cubic-bezier(0.42, 0.97, 0.52, 1.49);
+  /* transition: transform 300ms cubic-bezier(.39,.07,.55,.99); */
+  display: inline-block;
+}
+
+.transform {
+  transform: translate(400px, 100px) rotate(20deg);
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+@keyframes animation-name {
+  0% {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transform: rotateZ(0);
+  }
+  50% {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transform: rotateZ(180deg);
+  }
+
+  100% {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    transform: rotateZ(360deg);
+  }
+}
+
+.animation:hover {
+  animation: animation-name 1s ease-in-out infinite alternate 0.5s forwards;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* html, body { height: 100vh; }
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+.wave:nth-of-type(3) {
+  top: -155px;
+  animation: wave 15s cubic-bezier( 0, 0.47, 0.32, 1.97) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+} */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.sprite {
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-github {
+  width: 100px;
+  height: 100px;
+  background-position: -5px -5px;
+}
+
+.sprite-gmail {
+  width: 30px;
+  height: 30px;
+  background-position: -45px -5px;
+}
+
+.sprite-linkedin {
+  width: 30px;
+  height: 30px;
+  background-position: -5px -45px;
+}
+
+.sprite-stackoverflow {
+  width: 30px;
+  height: 30px;
+  background-position: -45px -45px;
+}
+
+.sprite-tumblr {
+  width: 30px;
+  height: 30px;
+  background-position: -85px -5px;
+}
+
+.sprite-twitter {
+  width: 30px;
+  height: 30px;
+  background-position: -85px -45px;
+}
+
