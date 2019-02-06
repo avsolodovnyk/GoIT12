@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>less12</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form action="#" method="GET">
+        <fieldset>
+          <legend>Учим формы</legend>
+
+          <ul class="custom-inputs__list">
+
+            <li class="custom-inputs">
+              <input type="checkbox" id="red" class="custom-input"/>
+              <label for="red" class="custom-label red"></label>
+            </li>
+
+
+            <li class="custom-inputs" >
+              <input type="checkbox" id="green" class="custom-input"/>
+              <label for="green" class="custom-label green"></label>
+            </li>
+
+
+            <li class="custom-inputs">
+              <input type="checkbox" id="yellow" class="custom-input"/>
+              <label for="yellow" class="custom-label yellow"></label>
+            </li>
+
+
+            <li class="custom-inputs">
+              <input type="checkbox" id="black" class="custom-input"/>
+              <label for="black" class="custom-label black"></label>
+            </li>
+
+
+          </ul>
+
+          <ul>
+            <li>
+              <input
+                class="input_valid"
+                type="text"
+                name="name"
+                placeholder="name"
+                required
+              />
+            </li>
+
+            <li>
+              <label for="id_input">Введите Ваш город </label>
+              <input
+                type="text"
+                name="city"
+                id="id_input"
+                placeholder="enter your city"
+                required
+              />
+            </li>
+
+            <li>
+              <input type="submit" value="Input-Submit" />
+
+              <button type="button">TAG - Button</button>
+            </li>
+
+            <li>
+              <input type="button" value="button" />
+            </li>
+
+            <li>
+              <input type="reset" value="очистить форму" />
+            </li>
+
+            <li>
+              <label>
+                Инпут внутри Лейбл
+                <input type="checkbox" name="chekboxesGroup" checked />
+              </label>
+
+              <label
+                >2
+                <input type="checkbox" name="chekboxesGroup" />
+              </label>
+              <label
+                >3
+                <input type="checkbox" name="chekboxesGroup" />
+              </label>
+            </li>
+
+            <li>
+              <input type="file" />
+            </li>
+
+            <li>
+              <input
+                type="image"
+                src="https://image.ibb.co/gn9Nma/button.png"
+              />
+            </li>
+
+            <li>
+              <label>
+                Введите пароль
+                <input
+                  type="password"
+                  name="pass"
+                  placeholder="Введите пароль"
+                />
+              </label>
+            </li>
+
+            <li>
+              <label>
+                Введите email
+                <input type="email" name="pass" placeholder="Введите email" />
+              </label>
+            </li>
+
+            <li>
+              <label
+                >1
+                <input type="radio" name="radiosGroup" checked />
+              </label>
+
+              <label
+                >2
+                <input type="radio" name="radiosGroup" />
+              </label>
+
+              <label
+                >1
+                <input type="radio" name="radiosGroup" />
+              </label>
+
+              <label
+                >2
+                <input type="radio" name="radiosGroup" />
+              </label>
+
+              <label
+                >1
+                <input type="radio" name="radiosGroup" />
+              </label>
+
+              <label
+                >2
+                <input type="radio" name="radiosGroup" />
+              </label>
+            </li>
+
+            <li>
+              <select name="counrty">
+                <option value="1">Турция</option>
+                <option value="2">Греция</option>
+                <option value="3">Египет</option>
+                <option value="4" selected>Тунис</option>
+              </select>
+
+              <select name="counrty" multiple>
+                <option value="1">Турция</option>
+                <option value="2" selected>Греция</option>
+                <option value="3">Египет</option>
+                <option value="4">Тунис</option>
+              </select>
+            </li>
+
+            <li>
+              <select>
+                <optgroup label="Цвет">
+                  <option value="c1">Апельсиновый</option>
+                  <option value="c2">Лимонный</option>
+                  <option value="c3">Персиковый</option>
+                </optgroup>
+
+                <optgroup label="Тон">
+                  <option value="s1">Светлый</option>
+                  <option value="s2">Нормальный</option>
+                  <option value="s3">Темный</option>
+                </optgroup>
+              </select>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>hello!</legend>
+
+          <ul>
+            <li>
+              <textarea
+                name="comments"
+                rows="5"
+                cols="45"
+                placeholder="For comments"
+              >
+hello!
+              </textarea>
+            </li>
+
+            <li>
+              <input type="submit" value="send" />
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
