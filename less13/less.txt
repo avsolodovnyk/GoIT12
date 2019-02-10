@@ -1,0 +1,43 @@
+Занятие #1:
+- Философия отзывчивой и адаптивной верстки.
+http://foodsense.is/
+https://ld-magento-72.template-help.com/magento_eva-tm/?___store=home_page_layout_2
+
+
+- viewport meta tag.
+https://developer.mozilla.org/ru/docs/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/Viewport
+https://developer.mozilla.org/ru/docs/Mozilla/Mobile/Viewport_meta_tag
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+
+- Правила responsive верстки: width в %, min и max width.
+- Chrome DevTools для работы с мобильной версткой.
+- Медиаправила.
+- Mobile-first CSS.
+
+
+
+
+
+------------------------------------------
+https://zellwk.com/blog/media-query-units/
+https://engageinteractive.co.uk/blog/em-vs-rem-vs-px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
