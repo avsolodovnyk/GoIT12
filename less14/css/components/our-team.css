@@ -36,6 +36,12 @@
   width: 22rem;
 }
 
+.our-team-card__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .our-team-card__figcaption {
   text-align: center;
   padding: 1.5rem 0;
@@ -60,13 +66,13 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .our-team-list__our-team-item {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 60em) {
   .our-team-list__our-team-item {
     width: 25%;
   }

@@ -15,7 +15,7 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .about-us__img {
     display: block;
     margin-right: 2rem;
