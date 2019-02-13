@@ -1,0 +1,31 @@
+.about-us__img {
+  display: none;
+}
+
+.about-us__article {
+  text-align: center;
+}
+
+.article__title {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.article__discript {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__img {
+    display: block;
+    margin-right: 2rem;
+  }
+
+  .about-us__section {
+    display: flex;
+  }
+
+  .about-us__article {
+    text-align: left;
+  }
+}

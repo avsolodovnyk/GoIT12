@@ -1,0 +1,10 @@
+:root {
+  --main-font: "RobotoRegular", serif, sans-serif;
+  --main-font-bold: "RobotoBold", serif, sans-serif;
+  --semi-font-color: #00e0d0;
+  --main-font-color: #ffffff;
+  --per-font-color: #413d4b;
+  --main-bg-color: #4b3c70;
+
+  font-size: 62.5%;
+}
