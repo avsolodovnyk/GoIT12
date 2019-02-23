@@ -1,0 +1,70 @@
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
+.section {
+  padding: 5rem 0;
+  /* max-width: 96rem; */
+  /* margin: 0 auto; */
+}
+
+.title--dark {
+  color: var(--per-font-color);
+  font-size: 2.2rem;
+  font-family: var(--main-font-bold);
+  margin: 0;
+}
+
+.title--light {
+  font-size: 2.2rem;
+  color: var(--main-font-color);
+  font-family: var(--main-font-bold);
+  margin: 0;
+}
+
+.text--dark {
+  font-size: 1.4rem;
+  color: var(--per-font-color);
+  font-family: var(--main-font);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.text--light {
+  font-size: 1.4rem;
+  color: var(--main-font-color);
+  font-family: var(--main-font);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.link-button {
+  color: var(--semi-font-color);
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid var(--semi-font-color);
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: var(--main-font-bold);
+  padding: 1rem;
+  display: inline-block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}

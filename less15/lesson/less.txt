@@ -1,0 +1,44 @@
+Занятие #1:
+- Основные составляющие сетки
+- Вложеность сетки в сетку
+- CSS фреймворки: назначение, функции, возможности.
+- Сетка Bootstrap 4.
+https://getbootstrap.com/docs/4.1/layout/grid/
+
+- Внедряем сетку в наш лендинг
+
+
+- Адаптивные утилиты
+https://getbootstrap.com/docs/4.0/utilities/display/
+
+
+--------------------------------------------------------------------------------------------
+https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/
+
+
+http://getskeleton.com/
+https://getbootstrap.com/
+https://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html
+https://simplegrid.io/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
