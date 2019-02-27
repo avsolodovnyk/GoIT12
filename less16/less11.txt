@@ -1,0 +1,18 @@
+Занятие #2:
+- Введение в CSS grid
+----------------------------------------------------------------------
+
+https://caniuse.com/#search=grid
+https://codeguida.com/post/740
+https://css-tricks.com/snippets/css/complete-guide-grid/
+http://cssgridgarden.com/#ru
+
+
+
+
+
+
+
+
+
+
