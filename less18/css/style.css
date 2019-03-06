@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 480px;
+  height: 320px;
+  background: url("https://placeimg.com/480/320/nature") no-repeat;
+}
+
+/* In the context of screens, DPI (Dots Per Inch) or PPI (Pixels Per Inch) refer to the number of device pixels per inch */
+
+/* dpi = ppi  - In the context of screens! */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .box {
+    background: url("https://placeimg.com/960/640/nature") no-repeat;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+
+/* По методологии BEM, блок не может иметь внешних отступов */
+
+

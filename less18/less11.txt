@@ -1,0 +1,11 @@
+http://dpi.lv/
+https://habr.com/ru/post/150071/
+https://vc.ru/tech/14645-dpi-ppi
+
+
+
+---------------------------------------------------------------------------------------
+
+https://ru.bem.info/methodology/quick-start/
+https://css-tricks.com/bem-101/
+https://www.sitepoint.com/css-architecture-block-element-modifier-bem/

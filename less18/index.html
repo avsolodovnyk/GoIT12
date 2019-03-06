@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>less18</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- icon@2x.png -->
+      <!-- icon@3x.png -->
+
+      <picture>
+        <source
+          srcset="
+            https://placeimg.com/400/200/nature,
+            https://placeimg.com/800/400/people 2x
+          "
+        />
+        <img srcset="https://placeimg.com/200/100/tech" alt="default image" />
+      </picture>
+
+      <div class="box"></div>
+
+      <section class="section section--full-screen">
+        <h1 class="section__title section__title--green">
+          Lorem ipsum dolor sit amet consectetur
+        </h1>
+
+        <div class="section__article-container">
+          <ul class="section__article-list">
+            <li class="section__article-item">
+              <article class="article">
+                <h3 class="article__title article__title--red">Lorem ipsum dolor sit</h3>
+                <p class="article__text article__text--green">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione iure excepturi at totam aspernatur soluta vitae sequi,
+                  facere fugit temporibus alias architecto dolorem nulla quasi
+                  corrupti deleniti ea autem quam?
+                </p>
+              </article>
+            </li>
+            <li class="section__article-item">
+              <article class="article">
+                <h3 class="article__title">Lorem ipsum dolor sit</h3>
+                <p class="article__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione iure excepturi at totam aspernatur soluta vitae sequi,
+                  facere fugit temporibus alias architecto dolorem nulla quasi
+                  corrupti deleniti ea autem quam?
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+        <button class="btn">load more</button>
+      </section>
+    </div>
+  </body>
+</html>
