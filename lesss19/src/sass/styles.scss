@@ -1,0 +1,27 @@
+/*
+   Import partials below
+*/
+@import "./normalize";
+@import "./mixins";
+
+.article {
+  &__title {
+    font-family: serif;
+  }
+
+  &__title--big {
+    font-size: 26px;
+  }
+
+  &__title--med{
+   font-size: 20px;
+ }
+
+  &__title--small{
+   font-size: 16px;
+ }
+}
+
+.list {
+   @include ul-nav;
+}
